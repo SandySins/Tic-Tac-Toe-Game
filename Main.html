@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Game!!</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Permanent+Marker&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <audio id="myAudio1">
+
+    <source src="audio1.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="myAudio2">
+    <source src="audio2.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="myAudio3">
+    <source src="audio3.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class='flex'>
+    <h1 class='header'>Tic Tac Toe</h1>
+  </div>
+  <div id="stripe">
+    <button id="reset" class="p1">Player 1: 0</button>
+    <span id="message"></span>
+    <button class="p2">Player 2: 0</button>
+  </div>
+  <div class='grid'>
+    <div class='space' id='one'></div>
+    <div class='space' id='two'></div>
+    <div class='space' id='three'></div>
+    <div class='space' id='four'></div>
+    <div class='space' id='five'></div>
+    <div class='space' id='six'></div>
+    <div class='space' id='seven'></div>
+    <div class='space' id='eight'></div>
+    <div class='space' id='nine'></div>
+  </div>
+
+  <div class='wrapper'>
+    <button class='reset'>Reset</button>
+    <script type="text/javascript" src="logic.js"></script>
+
+  </div>
+
+</html>
